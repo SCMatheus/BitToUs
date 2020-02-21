@@ -9847,3 +9847,22 @@ form .row:first-child .floating-label-form-group {
 .copyright {
   background-color: #1a252f;
 }
+
+.texto{
+font-size: 25px;
+}
+
+.members img { 
+  width: 200px;
+  height: 150px;
+  border-radius: 50px;
+}
+
+.info {
+  margin-left: 20px;
+}
+
+.name {
+  font-size: 30px;
+  font-weight: bold;
+}
