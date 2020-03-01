@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Freelancer - Start Bootstrap Theme</title>
+  <title>Bit To Us</title>
 
   <!-- Custom fonts for this theme -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -16,7 +16,7 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
   <!-- Theme CSS -->
-  <link href="css/freelancer.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 
 </head>
 
@@ -44,6 +44,9 @@
 		  <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#sobre">Sobre</a>
           </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#members">Membros</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -61,10 +64,6 @@
 
       <!-- Icon Divider -->
       <div class="divider-custom divider-light">
-        <div class="divider-custom-line"></div>
-        <div class="divider-custom-icon">
-          <i class="fas fa-star"></i>
-        </div>
         <div class="divider-custom-line"></div>
       </div>
 
@@ -370,7 +369,7 @@
   <section class="page-section" id="sobre">
     <div class="container">
 
-      <!-- Contact Section Heading -->
+      <!-- About Section Heading -->
       <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Sobre</h2>
 
       <!-- Icon Divider -->
@@ -382,29 +381,71 @@
         <div class="divider-custom-line"></div>
       </div>
 
-      <p class="mb-5 texto">Portfólio feito para a disciplina de Tecnologia de Construção de Software lecionada pela professora Lucília Gomes Ribeiro, onde estão documentados todos projetos realizados pelo grupo Bit To Us.</p>
-
-      <section class="container members">
-        <div class="row">
-          <img class="img-fluid" src="img/portfolio/carlos.jpeg" alt="">
-          <div class="info">
-            <p class="name ">Carlos Eduardo</p>
-            <div class="description">Estudante de Computação na PUC-GO. Backend developer na Encaixe.</div>
-          </div>
-        </div>
-      </section>
-      <br><br>
-      <section class="container members">
-        <div class="row">
-          <img class="img-fluid" src="img/portfolio/matheus.jpg" alt="">
-          <div class="info">
-            <p class="name ">Matheus Cardoso</p>
-            <div class="description">Estudante de Computação na PUC-GO. Estagiário da LG Sistemas.</div>
-          </div>
-        </div>
-      </section>
+      <p class="mb-5 texto">Portfólio feito para a disciplina de Tecnologia de Construção de Software ministrada pela professora Lucília Gomes Ribeiro, onde estão documentados todos projetos realizados pelo grupo Bit To Us.</p>
     </div>
   </section>
+
+  <section class="page-section" id="members">
+
+    <!-- About Section Heading -->
+    <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Super Membros</h2>
+
+
+    <!-- Icon Divider -->
+    <div class="divider-custom">
+      <div class="divider-custom-line"></div>
+      <div class="divider-custom-icon">
+        <i class="fas fa-star"></i>
+      </div>
+      <div class="divider-custom-line"></div>
+    </div>
+
+    <section class="container members texto">
+      <div class="row member">
+        <img class="img-fluid" src="img/portfolio/carlos.jpeg" alt="">
+        <div class="info">
+          <p class="name">Carlos Eduardo O. Bueno</p>
+          <div class="description">Estudante de Computação na PUC-GO. Backend developer na Encaixe.</div>
+          <div class="social-medias">
+            <a class="btn btn-social mx-1" href="https://www.linkedin.com/in/caeduob/" target="_blank">
+              <i class="fab fa-fw fa-linkedin"></i>
+            </a>
+            <a class="btn btn-social mx-1" href="https://github.com/zevet" target="_blank">
+              <i class="fab fa-fw fa-github-alt"></i>
+            </a>
+            <a class="btn btn-social mx-1" href="https://github.com/zevet" target="_blank">
+              <i class="fab fa-fw fa-instagram"></i>
+            </a>
+            <a class="btn btn-social mx-1" href="https://github.com/zevet" target="_blank">
+              <i class="fab fa-fw fa-facebook"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+        <div class="row member">
+          <img class="img-fluid" src="img/portfolio/matheus.jpg" alt="">
+          <div class="info">
+            <p class="name">Matheus Cardoso</p>
+            <div class="description">Estudante de Computação na PUC-GO. Estagiário da LG Sistemas.</div>
+            <div class="social-medias">
+              <a class="btn btn-social mx-1" href="https://www.linkedin.com/in/caeduob/" target="_blank">
+                <i class="fab fa-fw fa-linkedin"></i>
+              </a>
+              <a class="btn btn-social mx-1" href="https://github.com/zevet" target="_blank">
+                <i class="fab fa-fw fa-github-alt"></i>
+              </a>
+              <a class="btn btn-social mx-1" href="https://github.com/zevet" target="_blank">
+                <i class="fab fa-fw fa-instagram"></i>
+              </a>
+              <a class="btn btn-social mx-1" href="https://github.com/zevet" target="_blank">
+                <i class="fab fa-fw fa-facebook"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+    </section>
+  </section>
+  
 
   <!-- Footer -->
   <footer class="footer text-center">
@@ -469,10 +510,11 @@
                 <!-- Portfolio Modal - Image -->
                 <img class="img-fluid rounded mb-5" src="img/portfolio/site-construcao.png" alt="">
                 <!-- Portfolio Modal - Text -->
-                <p class="mb-5"></p>
                 <button class="btn btn-primary" href="#" data-dismiss="modal">
-                  <i class="fas fa-times fa-fw"></i>
-                  Close Window
+                  Ver código no Github
+                  <a class="btn btn-social btn-outline-light mx-1" href="https://github.com/zevet" target="_blank">
+                    <i class="fab fa-fw fa-github-alt"></i>
+                  </a>
                 </button>
               </div>
             </div>
@@ -510,8 +552,10 @@
                 <!-- Portfolio Modal - Text -->
                 <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                 <button class="btn btn-primary" href="#" data-dismiss="modal">
-                  <i class="fas fa-times fa-fw"></i>
-                  Close Window
+                  Ver código no Github
+                  <a class="btn btn-social btn-outline-light mx-1" href="https://github.com/zevet" target="_blank">
+                    <i class="fab fa-fw fa-github-alt"></i>
+                  </a>
                 </button>
               </div>
             </div>
@@ -549,8 +593,10 @@
                 <!-- Portfolio Modal - Text -->
                 <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                 <button class="btn btn-primary" href="#" data-dismiss="modal">
-                  <i class="fas fa-times fa-fw"></i>
-                  Close Window
+                  Ver código no Github
+                  <a class="btn btn-social btn-outline-light mx-1" href="https://github.com/zevet" target="_blank">
+                    <i class="fab fa-fw fa-github-alt"></i>
+                  </a>
                 </button>
               </div>
             </div>
@@ -588,8 +634,10 @@
                 <!-- Portfolio Modal - Text -->
                 <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                 <button class="btn btn-primary" href="#" data-dismiss="modal">
-                  <i class="fas fa-times fa-fw"></i>
-                  Close Window
+                  Ver código no Github
+                  <a class="btn btn-social btn-outline-light mx-1" href="https://github.com/zevet" target="_blank">
+                    <i class="fab fa-fw fa-github-alt"></i>
+                  </a>
                 </button>
               </div>
             </div>
